@@ -1,0 +1,7 @@
+{
+  "name": "color-name",
+  "version": "0.0.0",
+  "description": "Simple tool to get name of color.",
+  "dependencies": {},
+  "devDependencies": {}
+}
