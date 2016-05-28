@@ -29,7 +29,7 @@ const makeWebpackConfig = () => {
       filename: '[name].js',
       chunkFilename: '[name].chunk.js',
       hashDigestLength: 32,
-      publicPath: '/'
+      publicPath: DEV ? '/' : '/color-name/'
     },
     resolve: {
       root: path.join(__dirname, 'app'),
